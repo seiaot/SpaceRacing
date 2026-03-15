@@ -1,23 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "MyActor.h"
-#include "TestActor.generated.h"
-
-/**
- * 
- */
-UCLASS()
-class SWING_API ATestActor : public AMyActor
-{
-	GENERATED_BODY()
-	
-public:
-	ATestActor();
-
-protected:
-	void BeginPlay() override;
-
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:cb2ac649043879133cbff91b44c5b0b0f1400efcd8c2fc0ed6e158727dbdba52
+size 352

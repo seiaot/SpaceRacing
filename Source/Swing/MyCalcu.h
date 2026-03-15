@@ -1,24 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-#pragma once
-
-#include "CoreMinimal.h"
-
-/**
- * 
- */
-class SWING_API MyCalcu
-{
-public:
-	MyCalcu();
-	~MyCalcu();
-
-	static float ToValueF(float Current, float Target, float Speed, float DeltaTime);
-
-	template<class X>
-	static X Clamp(X Value, X Min, X Max);
-
-	static float Sign(float Value);
-
-	static float Vec2Angle(FVector _Vec1, FVector _Vec2);
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:1bbc92952ec5c5c370655a38194e69b977b670d255e7670a3c8c7b870bbc4ceb
+size 452

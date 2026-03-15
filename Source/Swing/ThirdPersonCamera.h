@@ -1,32 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "MyCamera.h"
-#include "ThirdPersonCamera.generated.h"
-
-/**
- * 
- */
-UCLASS()
-class SWING_API AThirdPersonCamera : public AMyCamera
-{
-	GENERATED_BODY()
-
-public:
-	AThirdPersonCamera();
-
-	void Tick(float DeltaTime) override;
-
-protected:
-	void BeginPlay() override;
-
-private:
-	//ソケットの相対位置
-	UPROPERTY(EditAnywhere,Category = Position,meta = (AllowPrivateAccess = "true"))
-	FVector m_SocketPos;
-
-	//ソケット登録情報
-	bool m_bRegist;
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:93f6689de66dc2f476e433f2f142b31026d85451f911c7e2a7c2b4af09057562
+size 598

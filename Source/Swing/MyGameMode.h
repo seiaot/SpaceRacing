@@ -1,17 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "GameFramework/GameModeBase.h"
-#include "MyGameMode.generated.h"
-
-/**
- * 
- */
-UCLASS()
-class SWING_API AMyGameMode : public AGameModeBase
-{
-	GENERATED_BODY()
-	
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:f98ad6e0315f5ce700d495fa2e34c12b431225174316bd0bbbe527ae2a1faa09
+size 308

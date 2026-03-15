@@ -1,29 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-#include "ThirdPersonCamera.h"
-#include "MyGameInstance.h"
-#include "PlayerChara.h"
-#include "MyWorldSubsystem.h"
-
-AThirdPersonCamera::AThirdPersonCamera()
-	:m_bRegist(false)
-{
-
-}
-
-void AThirdPersonCamera::BeginPlay()
-{
-	Super::BeginPlay();
-
-	GetWorld()->GetSubsystem<UMyWorldSubsystem>();
-}
-
-void AThirdPersonCamera::Tick(float DeltaTime)
-{
-	//プレイヤーの持つソケットに追加
-	/*if (!m_bRegist)
-	{
-		GetGameInstance<UMyGameInstance>()->GetPlayer()->AddSocket(this, m_SocketPos);
-		m_bRegist = true;
-	}*/
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:dcf944710d954133bb8f2daa8ee858c8ec70e6979e56760dd7c0ef505dec74b1
+size 613

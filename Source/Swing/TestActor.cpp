@@ -1,16 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-#include "TestActor.h"
-#include "Components/BoxComponent.h"
-
-ATestActor::ATestActor()
-{
-	CreateColliAndMesh<UBoxComponent, UStaticMeshComponent>();
-}
-
-void ATestActor::BeginPlay()
-{
-	Super::BeginPlay();
-
-	m_pMainCollision->SetSimulatePhysics(true);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c23f6461df82d0b5492437904330d12e88fac175cf7141f7692ed04804b6dd2a
+size 345

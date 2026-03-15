@@ -1,27 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
-#include "SplineActor.h"
-
-// Sets default values
-ASplineActor::ASplineActor()
-{
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
-
-}
-
-// Called when the game starts or when spawned
-void ASplineActor::BeginPlay()
-{
-	Super::BeginPlay();
-	
-}
-
-// Called every frame
-void ASplineActor::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:8325bb107e1f112647fefcad388d3ab0b3d890e1d849cfdccc85ac5be71b8014
+size 547

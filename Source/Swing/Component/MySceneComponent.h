@@ -1,28 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "Components/SceneComponent.h"
-#include "MySceneComponent.generated.h"
-
-
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
-class SWING_API UMySceneComponent : public USceneComponent
-{
-	GENERATED_BODY()
-
-public:	
-	// Sets default values for this component's properties
-	UMySceneComponent();
-
-protected:
-	// Called when the game starts
-	virtual void BeginPlay() override;
-
-public:	
-	// Called every frame
-	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-
-		
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:a1a294a52559779ef390f91b0b9bdea12f979e77acaf6d427df70467c2fe8a40
+size 704

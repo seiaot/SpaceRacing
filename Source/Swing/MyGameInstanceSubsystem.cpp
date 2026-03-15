@@ -1,30 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-#include "MyGameInstanceSubsystem.h"
-
-void UMyGameInstanceSubsystem::Initialize(FSubsystemCollectionBase& Collection)
-{
-	Super::Initialize(Collection);
-}
-void UMyGameInstanceSubsystem::Deinitialize()
-{
-	Super::Deinitialize();
-}
-
-void UMyGameInstanceSubsystem::Tick(float DeltaTime)
-{
-
-}
-TStatId UMyGameInstanceSubsystem::GetStatId() const
-{
-	RETURN_QUICK_DECLARE_CYCLE_STAT(UMyTickableWorldSubsystem, STATGROUP_Tickables);
-}
-
-void UMyGameInstanceSubsystem::SetGoalTime(float _Time)
-{
-	m_GoalTime = _Time;
-}
-float UMyGameInstanceSubsystem::GetGoalTime() const
-{
-	return m_GoalTime;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:688b43cbd89be91a254e2d4f5f16bd5d772040440024a64a9399c15b613ed0c8
+size 691

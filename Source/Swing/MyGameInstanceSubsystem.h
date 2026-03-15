@@ -1,32 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "Subsystems/GameInstanceSubsystem.h"
-#include "Tickable.h"
-#include "MyGameInstanceSubsystem.generated.h"
-
-/**
- * 
- */
-UCLASS()
-class SWING_API UMyGameInstanceSubsystem : public UGameInstanceSubsystem , public FTickableGameObject
-{
-	GENERATED_BODY()
-
-public:
-
-	void Initialize(FSubsystemCollectionBase& Collection) override;
-	void Deinitialize() override;
-
-	void Tick(float DeltaTime) override;
-	TStatId GetStatId() const override;
-
-	UFUNCTION(BluePrintCallable)
-	void SetGoalTime(float _Time);
-	UFUNCTION(BluePrintCallable)
-	float GetGoalTime() const;
-private:
-	float m_GoalTime;	//ÉSÅ[ÉãéûÇÃéûä‘
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:336fb5ad7292df264fd19bb1b073e10adc83bf01b92945a41fc02dd6ca212706
+size 761
